@@ -1,0 +1,1003 @@
+{
+  "id" : "showInvoice",
+  "name" : "showInvoice",
+  "type" : "form",
+  "uuid" : "60f5be32-c0e1-4860-a4d1-2de0f87c04c8",
+  "modelVersion" : "2.4",
+  "lastUpdate" : 1686236289899,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "f1aba6a1-ea2f-4d7a-8bc0-9e730fc5aca5",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayName }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "c4d6604c-fbe7-4cb6-9b29-5779a6450923",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayDescription }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "00d3df35-8e1e-40fa-b6ac-521368838be9",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "repeatedCollection" : {
+                  "type" : "variable"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "eeea26f6-3a36-47da-bd3a-1e3431956210",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "description" : "Auto generate ui for business object \"com.company.model.Invoice\"",
+              "rows" : [
+                [
+                  {
+                    "type" : "container",
+                    "dimension" : {
+                      "xs" : 12
+                    },
+                    "propertyValues" : { },
+                    "reference" : "39f45f95-4733-41bb-96f9-938347e7be84",
+                    "hasValidationError" : false,
+                    "id" : "pbContainer",
+                    "description" : "\"com.company.model.Invoice\" object from \"invoice\" variable",
+                    "rows" : [
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "md" : 12,
+                            "sm" : 12,
+                            "xs" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "level" : {
+                              "type" : "constant",
+                              "value" : "Level 4"
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "text" : {
+                              "type" : "interpolation",
+                              "value" : "Invoice"
+                            },
+                            "alignment" : {
+                              "type" : "constant",
+                              "value" : "left"
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 12
+                            }
+                          },
+                          "reference" : "6d4b84df-ba09-4096-8e53-a40249dafe6f",
+                          "hasValidationError" : false,
+                          "id" : "pbTitle",
+                          "description" : ""
+                        }
+                      ],
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "md" : 12,
+                            "sm" : 12,
+                            "xs" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "headers" : {
+                              "type" : "constant",
+                              "value" : [
+                                "Invoice Number",
+                                "Supplier Name",
+                                "Customer Name",
+                                "Total Amount",
+                                "Total Taxes"
+                              ]
+                            },
+                            "allowHtml" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "caption" : {
+                              "type" : "constant"
+                            },
+                            "condensed" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "bordered" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "selectedRow" : {
+                              "type" : "variable",
+                              "value" : "invoice_selected"
+                            },
+                            "columnsKey" : {
+                              "type" : "constant",
+                              "value" : [
+                                "invoiceNumber",
+                                "supplierName",
+                                "customerName",
+                                "totalAmount",
+                                "totalTaxes"
+                              ]
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 12
+                            },
+                            "content" : {
+                              "type" : "expression",
+                              "value" : "invoice"
+                            },
+                            "zebraStriping" : {
+                              "type" : "constant",
+                              "value" : true
+                            }
+                          },
+                          "reference" : "d6ad9303-6c9e-4d7f-b249-90b1c0a3267c",
+                          "hasValidationError" : false,
+                          "id" : "pbTable",
+                          "description" : ""
+                        }
+                      ],
+                      [
+                        {
+                          "type" : "container",
+                          "dimension" : {
+                            "md" : 1,
+                            "sm" : 1,
+                            "xs" : 1,
+                            "lg" : 1
+                          },
+                          "propertyValues" : {
+                            "repeatedCollection" : {
+                              "type" : "variable"
+                            },
+                            "hidden" : {
+                              "type" : "expression",
+                              "value" : "!invoice_selected"
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 1
+                            }
+                          },
+                          "reference" : "16c7d91f-87bd-4497-917e-54c5919cd057",
+                          "hasValidationError" : false,
+                          "id" : "pbContainer",
+                          "rows" : [
+                            [ ]
+                          ]
+                        },
+                        {
+                          "type" : "container",
+                          "dimension" : {
+                            "md" : 11,
+                            "sm" : 11,
+                            "xs" : 11,
+                            "lg" : 11
+                          },
+                          "propertyValues" : {
+                            "repeatedCollection" : {
+                              "type" : "variable"
+                            },
+                            "hidden" : {
+                              "type" : "expression",
+                              "value" : "!invoice_selected"
+                            },
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "dimension" : {
+                              "type" : "constant",
+                              "value" : 11
+                            }
+                          },
+                          "reference" : "dbf8bdde-5139-45f3-8752-4c2e5a67dc38",
+                          "hasValidationError" : false,
+                          "id" : "pbContainer",
+                          "description" : "Display \"Invoice\" details when a line is selected in the table above",
+                          "rows" : [
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 6,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 6
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!invoice_selected.invoiceNumber"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Invoice Number"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "text"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "invoice_selected.invoiceNumber"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "0f436a89-1e99-4b9b-ab73-8ea5717494bd",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              },
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 6,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 6
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!invoice_selected.supplierName"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Supplier Name"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "text"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "invoice_selected.supplierName"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "minLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "maxLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "debounce" : {
+                                    "type" : "constant",
+                                    "value" : 0
+                                  },
+                                  "min" : {
+                                    "type" : "constant"
+                                  },
+                                  "max" : {
+                                    "type" : "constant"
+                                  },
+                                  "step" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  }
+                                },
+                                "reference" : "257cbe30-4a51-4eca-ace8-6ba02557996f",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 12,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 12
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!invoice_selected.customerName"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Customer Name"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "text"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "invoice_selected.customerName"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "600f80cc-6f9c-490c-9601-84336b96fc27",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 6,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 6
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!invoice_selected.totalAmount"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Total Amount"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "number"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "invoice_selected.totalAmount"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "5b43177d-f7e8-44fe-b0f6-0908b24b8af7",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              },
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "md" : 6,
+                                  "sm" : 12,
+                                  "xs" : 12,
+                                  "lg" : 6
+                                },
+                                "propertyValues" : {
+                                  "labelHidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "hidden" : {
+                                    "type" : "expression",
+                                    "value" : "!invoice_selected.totalTaxes"
+                                  },
+                                  "labelPosition" : {
+                                    "type" : "constant",
+                                    "value" : "top"
+                                  },
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "labelWidth" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  },
+                                  "readOnly" : {
+                                    "type" : "constant",
+                                    "value" : true
+                                  },
+                                  "label" : {
+                                    "type" : "interpolation",
+                                    "value" : "Total Taxes"
+                                  },
+                                  "placeholder" : {
+                                    "type" : "constant"
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "number"
+                                  },
+                                  "dimension" : {
+                                    "type" : "constant",
+                                    "value" : 12
+                                  },
+                                  "value" : {
+                                    "type" : "variable",
+                                    "value" : "invoice_selected.totalTaxes"
+                                  },
+                                  "required" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "minLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "maxLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "debounce" : {
+                                    "type" : "constant",
+                                    "value" : 0
+                                  },
+                                  "min" : {
+                                    "type" : "constant"
+                                  },
+                                  "max" : {
+                                    "type" : "constant"
+                                  },
+                                  "step" : {
+                                    "type" : "constant",
+                                    "value" : 1
+                                  }
+                                },
+                                "reference" : "597d9b40-545f-44d9-81f8-f9320e036c31",
+                                "hasValidationError" : false,
+                                "id" : "pbInput",
+                                "description" : ""
+                              }
+                            ],
+                            [
+                              {
+                                "type" : "component",
+                                "dimension" : {
+                                  "xs" : 12,
+                                  "sm" : 12,
+                                  "md" : 12,
+                                  "lg" : 12
+                                },
+                                "propertyValues" : {
+                                  "cssClasses" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "hidden" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "type" : {
+                                    "type" : "constant",
+                                    "value" : "Process document"
+                                  },
+                                  "url" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "document" : {
+                                    "type" : "variable",
+                                    "value" : "context.invoiceDoc_ref"
+                                  },
+                                  "showPreview" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  }
+                                },
+                                "reference" : "aa627e97-c452-4344-9acd-445deebd60ff",
+                                "hasValidationError" : false,
+                                "id" : "pbFileViewer"
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "dc75e419-4085-4a27-8e52-ba529d920fe5",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "612ad626-151c-4ce2-82ca-df3fdbacc5b5",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "43a2ccf3-5645-400d-b5dd-c04350dcd389",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "c7241fb5-2cf8-4b09-94a8-e427c5ba72b3",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "invoice" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByPersistenceId [com.company.model.Invoice]\",\"businessObjectName\":\"Invoice\",\"query\":{\"name\":\"findByPersistenceId\",\"displayName\":\"findByPersistenceId\"},\"id\":\"com.company.model.Invoice\",\"filters\":[{\"name\":\"persistenceId\",\"type\":\"INTEGER\",\"collection\":false,\"value\":\"{{context.invoice_ref.storageId}}\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "invoice_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "ed899fad-b789-495d-a521-d9c5f5564f9f",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "9394f224-2cf0-424d-a9bf-89c953da50be",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}
